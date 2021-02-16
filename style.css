@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+    font-weight: bold;
+}
+
+#banner, footer {
+    background-color: brown;
+    color: white;
+    height: 50px;
+}
+
+@media (max-width: 575px) {
+    #left-menu {
+        display: none;
+    }
+}
+
+#left-menu {
+    background-color: orange;
+}
+
+.main {
+    height: 200px;
+    text-align: center;
+}
+
+.grey {
+    background-color: grey;
+}
+
+#top-menu {
+    background-color: pink;
+    margin: 0 -12px;
+}
+
+.odd {
+    background-color: pink;
+}
+
+.even {
+    background-color: blue;
+    color: white;
+}
+
